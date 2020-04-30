@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "淘气的按钮",
+    "version": "1.0",
+    "description": "淘气的按钮",
+    "content_scripts": [
+        {
+            "matches": ["*://www.baidu.com/"],
+            "js": ["js/cannot_touch.js"]
+        }
+    ] 
+}
